@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde testing base classes
 Name:		php-horde-Horde_Test
-Version:	1.0.0
+Version:	1.1.2
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	da6c2eed541f5172823367de2799feb4
+# Source0-md5:	e2ad37936b4726b1e7a9c635fa920f62
 URL:		https://github.com/horde/horde/tree/master/framework/Test/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
@@ -22,6 +22,7 @@ Requires:	php-pear >= 4:1.3.6-2
 Requires:	php-phpunit-PHPUnit >= 3.5.0
 Suggests:	php-dom
 Suggests:	php-horde-Horde_Cli
+Suggests:	php-horde-Horde_Log
 Suggests:	php-json
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
