@@ -4,7 +4,7 @@
 Summary:	%{pearname} - Horde testing base classes
 Name:		php-horde-Horde_Test
 Version:	1.3.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -19,7 +19,7 @@ Requires:	php-channel(pear.horde.org)
 Requires:	php-horde-Horde_Support < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
-Requires:	php-phpunit-PHPUnit >= 3.5.0
+Requires:	phpunit >= 3.5.0
 Suggests:	php-dom
 Suggests:	php-horde-Horde_Cli
 Suggests:	php-horde-Horde_Log
