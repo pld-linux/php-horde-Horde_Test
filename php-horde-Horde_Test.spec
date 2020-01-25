@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Test
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde testing base classes
 Name:		php-horde-Horde_Test
 Version:	1.3.0
